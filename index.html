@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+
+    <div class="calculator-container">
+        <div class="screen-container">
+            <div class="screen">0</div>
+        </div>
+        <div class="buttons-container">
+            <div class="controls-container">
+                <div class="row">
+                    <button onclick="display(this.id)" id="+" class="btn">+</button>
+                    <button onclick="display(this.id)" id="-" class="btn">-</button>
+                    <button onclick="display(this.id)" id="*" class="btn">×</button>
+                    <button onclick="display(this.id)" id="/" class="btn">÷</button>
+                </div>
+            </div>
+
+            <div class="num-equal-container">
+                <div class="numpad">
+                    <div class="row">
+                        <button onclick="display(this.id)" id="7" class="btn">7</button>
+                        <button onclick="display(this.id)" id="8" class="btn">8</button>
+                        <button onclick="display(this.id)" id="9" class="btn">9</button>
+                    </div>
+                    <div class="row">
+                        <button onclick="display(this.id)" id="4" class="btn">4</button>
+                        <button onclick="display(this.id)" id="5" class="btn">5</button>
+                        <button onclick="display(this.id)" id="6" class="btn">6</button>
+                    </div>
+                    <div class="row">
+                        <button onclick="display(this.id)" id="1" class="btn">1</button>
+                        <button onclick="display(this.id)" id="2" class="btn">2</button>
+                        <button onclick="display(this.id)" id="3" class="btn">3</button>
+                    </div>
+                    <div class="row">
+                        <button onclick="display(this.id)" id="0" class="btn">0</button>
+                        <button onclick="display(this.id)" id="." class="btn">.</button>
+                        <button onclick="display(this.id)" id="AC" class="btn">AC</button>
+                    </div>
+                </div>
+                <div class="equal">
+                    <button onclick="display(this.id)" id="=" class="btn equal-btn">&#x3D;</button>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
