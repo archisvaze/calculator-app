@@ -28,7 +28,6 @@ body {
     border-radius: 10px;
     box-shadow: 0px 5px 10px 3px rgba(0, 0, 0, 0.3),
         inset 0px 3px 8px rgba(255, 255, 255, 0.2);
-    max-width: 400px;
 
 }
 
@@ -42,7 +41,7 @@ body {
 .screen {
     font-family: 'VT323', monospace;
     color: #76b439;
-    width: 95%;
+    width: 250px;
     height: 100px;
     margin-bottom: 15px;
     background-color: #171717;
@@ -58,7 +57,6 @@ body {
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
-
 }
 
 .buttons-container {
@@ -145,5 +143,10 @@ body {
 
     .equal-btn {
         height: 95%;
+    }
+
+    .screen {
+
+        width: 325px;
     }
 }
