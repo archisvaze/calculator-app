@@ -101,14 +101,21 @@ body {
     font-size: 20px;
     margin: 7.5px;
     border-radius: 15px;
-    transition: 0.3s;
-    box-shadow: 0px 5px 5px 3px rgba(0, 0, 0, 0.3),
+    transition: 0s;
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.3),
         inset 0px 3px 4px rgba(255, 255, 255, 0.2);
 }
 
 .btn:hover {
     background-color: #797979;
 }
+
+.btn:active {
+    transform: translateY(4px);
+    box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.3),
+        inset 0px 3px 4px rgba(255, 255, 255, 0.2);
+}
+
 
 .equal {
     display: flex;
